@@ -1,0 +1,21 @@
+body{
+    width: 1000px;
+    background-color: #FAA7C9;
+}
+
+.maincontent{
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+h1:hover{
+    color:black;
+}
+h1{
+    color:white;
+}
+.quote{
+    color:white;
+    text-align: center;
+    margin: 0 auto;
+}
