@@ -1,0 +1,15 @@
+body {
+    margin:auto 0;
+}
+
+.grey-background {
+    background-color: gray;
+}
+
+#circle-pic {
+    width: 33%;
+    border-radius: 50%;
+    border: 1;
+    border-color: bisque;
+    margin: 5, 10, 5, 10;
+}
