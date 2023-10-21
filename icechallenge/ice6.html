@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/styles/ice6.css">
+    <style>
+        .gridcontainter {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .tart {
+            grid-column: 1/3;
+            text-align: center;
+            font-size: 3em;
+        }
+        .cherry {
+            grid-column: 2/4;
+            text-align: center;
+            font-size: 7em;
+        }
+        .image {
+            width: 60%;
+        }
+    </style>
+
+
 </head>
 <body>
-    
+    <div class="gridcontainer">
+        <h1 class="tart">Tart & Sweet</h1>
+        <img class="image" src="https://byui-wdd.github.io/wdd130/ice/w06_cherries.png" alt="cherry image">
+        <h2 class="cherry">Cherries</h2>
+    </div>
 </body>
 </html>
