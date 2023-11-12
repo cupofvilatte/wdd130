@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICE Challenge Week 9</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        .card{
+            width: 250px;
+            margin: 0 auto;
+            background-color: white;
+        }
+        .headerimage{
+            width: 100%;
+        }
+        .awesomearticle{
+            padding: 10%;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            font-size: .5em;
+            color: blue;
+        }
+        footer{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: blue;
+            color: white;
+            border-color: black;
+            border-width: 5px;
+        }
+        .read{
+            grid-template-columns: 1/2;
+            text-align: center;
+            border-color: black;
+        }
+        .views{
+            grid-template-columns: 2/3;
+            text-align: center;
+        }
+        .comments{
+            grid-template-columns: 3/4;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <div class="card">
+        <img class="headerimage" src="w09_ice_img.jpg" alt="Skyscrapers and bridge in city">
+        <main>
+            <h2>3 Weeks Ago</h2>
+            <h1>Post Three</h1>
+            <p class="awesomearticle">
+                This would be some text to go here and tell you about this awesome article that they should definitely read. This would be some text to go here and tell you about this awesome article that they should definitely read. This would be some text to go here.
+            </p>
+            <footer>
+                <section class="read">
+                    <h1>5m</h1>
+                    <p>Read</p>
+                </section>
+                <section class="views">
+                    <h1>2031</h1>
+                    <p>Views</p>
+                </section>
+                <section class="comments">
+                    <h1>15</h1>
+                    <p>Comments</p>
+                </section>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
