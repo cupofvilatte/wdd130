@@ -230,7 +230,39 @@ h4 {
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+.date-head {
+    grid-row: 1/2;
+}
 
+.GCThreeNight {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.daypic {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.GCSixNight{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.nightpic {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.SRFiveNight {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.DSixNight {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
 
 .travel-accordion {
     background-color: #eee;
