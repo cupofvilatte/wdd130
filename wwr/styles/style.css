@@ -227,7 +227,7 @@ h4 {
 .dates-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
 }
 
 .date-head {
@@ -243,6 +243,7 @@ h4 {
 .daypic {
     grid-column: 2/3;
     grid-row: 2/3;
+    width: 50%;
 }
 
 .GCSixNight{
@@ -253,6 +254,7 @@ h4 {
 .nightpic {
     grid-column: 2/3;
     grid-row: 3/4;
+    width: 50%;
 }
 
 .SRFiveNight {
