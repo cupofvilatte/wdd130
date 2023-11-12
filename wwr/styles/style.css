@@ -259,14 +259,8 @@ h4 {
     align-content: center;
     justify-content: center;
     border: 10px solid black;
-    width: 100%;
-    transition: transform .5s;
+    width: 90%;
     box-shadow: 5px 5px 10px #33658A;
-}
-
-.daypic:hover {
-    opacity: .6;
-    transform: scale(1.1);
 }
 
 .GCSixNight{
@@ -287,14 +281,8 @@ h4 {
     align-content: center;
     justify-content: center;
     border: 10px solid black;
-    width: 100%;
-    transition: transform .5s;
+    width: 90%;
     box-shadow: 5px 5px 10px #33658A;
-}
-
-.nightpic:hover {
-    opacity: .6;
-    transform: scale(1.1);
 }
 
 .SRFiveNight {
