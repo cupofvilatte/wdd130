@@ -235,7 +235,9 @@ h4 {
     grid-row: 1/2;
     grid-column: 1/3;
     align-items: center;
+    align-content: center;
     justify-items: center;
+    justify-content: center;
     color: aliceblue;
 }
 
@@ -319,14 +321,16 @@ h4 {
     background-color: #86BBD8;
     color: #6f7364;
     align-content: center;
+    border: 10px solid black;
 }
 
 .desolation {
-    width: 60%;
+    width: 50%;
     border: 20px;
     border-color: #86BBD8;
     box-shadow: 5px 5px 10px #33658A;
     margin-bottom: 20px;
+    border: 10px solid black;
 }
 
 /* mobile css */
